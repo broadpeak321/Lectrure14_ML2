@@ -1,0 +1,200 @@
+Implement Shoe size dataset in kaggle in kaggle
+
+
+input: features
+output:labels
+
+
+types:
+supervised
+unsupervised
+reinforement   reward and punishment
+
+
+classification 
+and 
+regression   =  continuous numerical values
+
+Linear regression
+-------------------
+linear equation
+linear degree =1 (+_ or -)
+
+	* Simple linear regtesssion     degree=1
+	* multiple linear regressioin    degree=1
+
+
+polynomial regression   (multiple curves)
+----------------------
+
+
+(when no curve then degree is 1, when there is 1 curve /bend then degree is 2, when theres is 2 curves/bend then degree is 3)
+
+ML data spli
+-------------
+Train
+Test
+
+DL data split
+-------------
+Train
+validate (Within training testing is validating)
+Test
+
+Model Terms
+============
+underfit: model has not trained, accuracy is zero in training an testing
+good fit: robust, best accuracy in both training and testing
+Overfit: training accuray 100%,  testing accuracy = fail
+
+
+Supervised LEarning
+=====================
+			Simple Regresssion
+1) Linear Regression {
+			Multiple Regression
+
+
+
+
+
+Feature Scaling in Machine LEarning
+--------------------------------------
+age   (0 to 60)
+and   (0 to 120000)
+salary comparion
+
+
+so we make them between 0 and 1
+
+
+2) KNN (K Nearest Neighbour)---Study of neighbour
+-------------------------------
+draw circle around data with radius K, then which values are larger then new entry will be of same type
+we can change value of K, so K value should be optimized
+
+but there is a threshold in between where number od data points are same, so KNN cant do decision
+
+3) Decision Tree Regression
+--------------------
+draw tree on decisions on step by step
+problem: tree height is to large that it takestoo much time for decision
+
+solution:  
+1) give tree height
+2) random forest regression
+
+4) Random Forest Regression
+-------------------------------
+
+use of decision tree,
+take 4 to 5 decision trees and then average out the result
+
+5) Suppport vector regressor    (SVM, 
+--------------------------------
+draw extra vectors in support of linear regression
+
+
+After Break
+================
+Regularization (to avoid overfit)
+--------------------------------
+Linear Regression
+===================
+i) simple LR
+ii) Multiple LR
+iii) Poly LR
+iv) Lasso (L1): use where to avoid overfitting
+v) Ridge (L2): use where to avoid overfitting  &   Feature importance
+
+Decision Tree
+=====================
+for imbalance tree (to avoid overfitting), we use pruning
+
+
+In ML we have 4 techniques to avoid overfitting
+-------------------------------------------------
+i) Lasso
+ii) Ridge
+iii) Pruning
+iv) Drop out
+
+Linear Classification/ Logistic Regression
+----------------------------------------------
+we define threshold and it form classification
+
+
+Encoding
+-----------
+
+
+scaling
+-------------
+
+Cross Validation
+----------------
+
+
+Grid search CV
+------------------
+
+
+************************************************
+^^^^^^^^^^^^^^^Sir Notes^^^^^^^^^^^^^^^^^^^^^^^^
+************************************************
+
+Five Models
+************
+Regression Models
+	Linear Regression
+	KNN Regressor
+	Decision Tree Regressor
+	Random Forest Regressor
+	Support Vector Regressor
+
+Classification Models
+	Logistic Regression
+	KNN Classifier
+	Decision Tree Classifier
+	Random Forest Classifier
+	Support vector Classifier
+
+Pre-Processing
+*************************
+i) Features and Target split
+
+ii) Encoding
+	Label Encoding
+	One hard encoding
+
+iii) Scaling
+	Standard Scaling
+	Min Max Scaling
+
+
+iv) Train, Test, Validate, Split
+
+Model Training and Evaluation
+*************************************
+i) Cross Validation
+ii) Grid Search CV (Hyper Paramter Tuning)
+iii) Matrices
+	i) Classification
+		i) Accuracy Score
+		ii) Classification Report (F1 Score and Recall)
+		iii) Confusion Matrix
+	ii) Regression
+		i) MSE (Mean Squar Error)
+		ii) RMSE (Root Mean Square Error)
+		iii) MAE (Mean Absolute Error)
+
+Overfitting Prevention Techniques
+************************************
+i) Linear Regression
+	i) Lasso
+	ii) Ridge
+ii) Decision Tree
+	i) Prunings
+
+
+Drop out (in Deep Learning)
